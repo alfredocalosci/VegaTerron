@@ -21,6 +21,19 @@ export default defineNuxtConfig({
     '/': { prerender: true }
   },
 
+  nitro: {
+    externals: {
+      external: ['@openeo/js-client', '@openeo/js-commons', 'tiff', 'axios']
+    },
+    typescript: {
+      tsConfig: {
+        compilerOptions: {
+          types: ['node']
+        }
+      }
+    }
+  },
+
   typescript: {
     tsConfig: {
       compilerOptions: {

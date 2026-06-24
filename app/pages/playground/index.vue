@@ -66,6 +66,9 @@
         <li>
           <NuxtLink to="/playground/terrainElevMoistureSymbolsLight" class="text-blue-500 hover:underline">Terrain Elev/Moisture Symbols Light</NuxtLink>
         </li>
+        <li>
+          <NuxtLink to="/playground/terrainCopernicusData" class="text-blue-500 hover:underline">Terrain Copernicus Data</NuxtLink>
+        </li>
        </ul>
 
        <p class="text-xs text-gray-700 uppercase my-4">hex grid shapes</p>
