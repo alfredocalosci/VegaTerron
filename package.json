@@ -14,13 +14,16 @@
     "@iconify-json/lucide": "^1.2.105",
     "@iconify-json/simple-icons": "^1.2.80",
     "@nuxt/ui": "^4.7.1",
+    "d3": "^7.9.0",
     "gsap": "^3.15.0",
     "nuxt": "^4.4.4",
     "p5": "^2.2.3",
+    "simplex-noise": "^4.0.3",
     "tailwindcss": "^4.2.4"
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.15.2",
+    "@types/d3": "^7.4.3",
     "@types/p5": "^1.7.7",
     "eslint": "^10.3.0",
     "typescript": "^6.0.3",
